@@ -10,7 +10,7 @@ import Form from './scenes/form';
 // import Pie from './scenes/pie';
 // import FAQ from './scenes/faq';
 // import Geography from './scenes/geography';
-// import Calendar from './scenes/calendar';
+import Calendar from './scenes/calendar';
 import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Routes, Route } from "react-router-dom";
@@ -37,7 +37,7 @@ function App() {
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/faq" element={<FAQ />} /> */}
               {/* <Route path="/geography" element={<Geography />} /> */}
-              {/* <Route path="/calendar" element={<Calendar />} /> */}
+              <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </main>
         </div>
