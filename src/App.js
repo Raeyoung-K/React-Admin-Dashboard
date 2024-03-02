@@ -9,7 +9,7 @@ import Form from './scenes/form';
 import Line from './scenes/line';
 import Pie from './scenes/pie';
 import FAQ from './scenes/faq';
-// import Geography from './scenes/geography';
+import Geography from './scenes/geography';
 import Calendar from './scenes/calendar';
 import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
@@ -36,7 +36,7 @@ function App() {
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
               <Route path="/faq" element={<FAQ />} />
-              {/* <Route path="/geography" element={<Geography />} /> */}
+              <Route path="/geography" element={<Geography />} />
               <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </main>
